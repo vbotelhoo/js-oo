@@ -9,4 +9,12 @@ const users = {
     }
 }
 
-users.exibirInfos();
+// users.exibirInfos();
+
+
+const exibir = function() {
+    console.log(this.nome, this.email);
+}
+
+const exibirNome = exibir.bind(user);
+exibirNome()
