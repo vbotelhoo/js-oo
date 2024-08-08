@@ -16,9 +16,9 @@ class Admin extends User {
     };
 };
 
-const novoAdmin = new Admin('Vlad', 'vl@vl.com', '2024-01-01');
-console.log(novoAdmin);
-console.log(novoAdmin.criarPerfil());
-console.log(novoAdmin.criarCurso('JavaScript', '20'));
-console.log(novoAdmin.excluirCurso('Java'));
-console.log(novoAdmin.desativarPerfil());
+// const novoAdmin = new Admin('Vlad', 'vl@vl.com', '2024-01-01');
+// console.log(novoAdmin);
+// console.log(novoAdmin.criarPerfil());
+// console.log(novoAdmin.criarCurso('JavaScript', '20'));
+// console.log(novoAdmin.excluirCurso('Java'));
+// console.log(novoAdmin.desativarPerfil());

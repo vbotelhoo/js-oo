@@ -6,7 +6,3 @@ function User (nome, email){
         return`${this.nome}, ${this.email}`;
     };
 };
-
-const novoUser = new User('Juliana', 'j@j.com');
-console.log(novoUser.exibirInfos());
-

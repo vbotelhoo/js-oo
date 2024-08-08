@@ -13,7 +13,7 @@ class Docente extends User {
     };
 }
 
-const novoDocente = new Docente('Vic', 'vic@vic.com', '2024-01-01');
-console.log(novoDocente);
-console.log(novoDocente.aprovarEstudante('João', 'Matematica')),
-console.log(novoDocente.reprovarEstudante('Thiago', 'Biologia'));
+// const novoDocente = new Docente('Vic', 'vic@vic.com', '2024-01-01');
+// console.log(novoDocente);
+// console.log(novoDocente.aprovarEstudante('João', 'Matematica')),
+// console.log(novoDocente.reprovarEstudante('Thiago', 'Biologia'));

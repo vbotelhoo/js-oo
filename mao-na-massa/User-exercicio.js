@@ -28,7 +28,7 @@ export default class User {
 
 };
 
-const novoUser = new User('Vitor', 'v@v.com', '2024-01-01');
+// const novoUser = new User('Vitor', 'v@v.com', '2024-01-01');
 
 // console.log(novoUser);
 // console.log(novoUser.criarPerfil());
